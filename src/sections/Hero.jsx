@@ -24,16 +24,16 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home" style={{
-        backgroundImage: "url('/assets/darkbg.jpg')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}>
-      <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-0">
-        <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          Hi, I am Amisha <span className="waving-hand">👋</span>
-        </p>
-        <p className="hero_tag text-gray_gradient">Full Stack Developer & ML Engineer</p>
-      </div>
+      backgroundImage: "url('/assets/darkbg.jpg')",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}>
+    <div className="w-full mx-auto flex flex-col sm:mt-32 mt-16 c-space "> {/* Adjusted margins */}
+      <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
+        Hi, I am Amisha <span className="waving-hand">👋</span>
+      </p>
+      <p className="hero_tag text-gray_gradient -mt-2">Full Stack Developer & ML Engineer</p>
+    </div>
 
       <div className="w-full h-full absolute inset-0">
         <Canvas className="w-full h-full">

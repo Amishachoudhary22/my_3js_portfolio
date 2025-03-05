@@ -23,7 +23,8 @@
     "react-globe.gl": "^2.32.0",
     "react-responsive": "^10.0.0",
     "react-vertical-timeline-component": "^3.5.3",
-    "three": "^0.173.0"
+    "three": "^0.173.0",
+    "vertical-timeline-component-react": "^4.4.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
